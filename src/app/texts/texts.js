@@ -1,9 +1,10 @@
-const title = "Titulo del emprendimiento";
-const email = "Email del emprendimiento";
+const title = "JeraldinMD";
+const email = "jeraldinmora90@hotmail.com";
 const mensajeWhatsApp = encodeURIComponent(
-    `¡Hola! Estoy muy interesado en tus productos de ${title} y me gustaría recibir más información sobre ellos. Espero poder hablar pronto contigo para aclarar algunas dudas. ¡Gracias!`
+    "¡Hola! Estoy interesado en conocer más sobre los productos de " + title + " y me gustaría obtener más información. ¡Gracias!"
 );
-const numeroWhatsApp = "Numero del emprendimiento";
+const numeroWhatsApp = "+573112333638";
+
 const textos = {
     index: {
         title: title,
@@ -12,25 +13,25 @@ const textos = {
         title: title,
     },
     about: {
-        description1: "Descripción del emprendimiento parrafo uno",
-        description2: "Descripcion del emprendimiento parrafo dos"
+        description1: "En JeraldinMD, nos especializamos en la elaboración de prendas de vestir para niñas, con un enfoque en diseños cómodos y estilosos. Desde faldas y blusas hasta leggins, cada pieza es cuidadosamente confeccionada para resaltar la personalidad y el confort de las niñas.",
+        description2: "Durante la temporada escolar, también ofrecemos camisas polo con escudo, sudaderas y leggins, elaborados con la misma dedicación para garantizar calidad y durabilidad en cada prenda. ¡Descubre nuestros productos y vístete con estilo en cualquier ocasión!"
     },
     contact: {
         whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`,
-        email: email
+        email: email,
     },
     footer: {
-        slogan:{
-            p1: "slogan del emprendimiento parrafo uno",
-            p2: "slogan del emprendimiento parrafo dos"
+        slogan: {
+            p1: "Comodidad y estilo para las más pequeñas.",
+            p2: ""
         },
-        address: "Dirección del emprendimiento",
+        address: "", // Información no proporcionada
         phone: numeroWhatsApp,
         email: email,
-        facebook: "https://www.facebook.com/",
-        instagram: "https://www.instagram.com/",
+        facebook: "https://www.facebook.com/yeralpte.cdlm?mibextid=ZbWKwL", // Facebook proporcionado
+        instagram: "", // No proporcionado
         whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`
     },
-
 };
+
 export default textos;
